@@ -1,0 +1,135 @@
+#body{
+	background-image: linear-gradient(90deg,#1f2932, #2c3d47, #3b4e5c);
+	color:white;
+	margin: 0;
+	height: auto;
+}
+
+#parent{
+	display:flex;
+	width:100%;
+	/*background-image: linear-gradient(90deg,#1f2932, #2c3d47, #3b4e5c);*/
+}
+
+#parentnav{
+	display: flex;
+	width:100%;
+}
+
+#login{
+	display: flex;
+	flex-direction: column;
+	width:50%;
+	/*padding: 15px;*/
+}
+
+#input{
+	display: flex;
+	width:50%;
+	justify-content: flex-end;
+	height: 30px;
+	width: 60%;
+
+}
+
+#navbar{
+	/*display: flex;*/
+	width: 15%;
+	height: auto;
+	/*flex-direction: column;*/
+}
+
+#list ul{
+	display: flex;
+	list-style-type: none;
+	flex-direction: column;
+}
+
+#list ul li{
+	padding: 10px;
+}
+
+#list2 ul{
+	display: flex;
+	list-style-type: none;
+	flex-direction: column;
+}
+
+#list2 ul li{
+	padding: 10px;
+}
+
+#content{
+	display: flex;
+	flex-wrap: wrap;
+	width:85%;
+	/*background-color: black;*/
+	height: auto;
+	direction: rtl;
+	padding-right: 10px;
+}
+
+#button{
+	background-color: green;
+	font-size: 26px;
+	border-radius: 100%;
+	cursor: pointer;
+	border-width: 0;
+}
+
+#style{
+	color:white;
+	font-size: 18px;
+}
+/*
+#main {
+  width: 85%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}*/
+
+#content div {
+  width: 170px;
+  height: auto;
+  margin-bottom: 50px;
+  margin-right: 80px;
+  margin-left: 10px;
+}
+
+.pagies a{
+  text-decoration: none;
+  float: center;
+  color: black;
+  font-weight: 50px;
+  font-size: 100;
+  margin: 30px;
+}
+.pagies a:hover:not(.active){
+  background-color: #1f2932;
+  color:#3d4e5c;
+}
+/*.card-text{
+	height: 40px;
+}*/
+
+.card-body{
+	width: 70%;
+}
+#title{
+	color: black;
+}
+/* Extra small devices (phones, 600px and down) */
+@media (max-width: 600px) {...} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 600px) {...} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media  (min-width: 768px) {...} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media  (min-width: 992px) {...} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media  (min-width: 1200px) {...}
